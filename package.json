@@ -16,6 +16,7 @@
     "fs": "0.0.1-security",
     "log4js": "^5.1.0",
     "moment": "^2.24.0",
+    "node-cron": "^2.0.3",
     "phantom": "^6.3.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4"
