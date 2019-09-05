@@ -137,7 +137,7 @@ exports.crawlReviews = async (movieId) => {
                     page.evaluate(function (lastestCrawlTimestamp) {
                         var reviews = [];
 
-                        $('.imdb-user-review').each(function (index, element) {
+                        $('.imdb-user-review').map(function (index, element) {
                             var reviewDate = $($(element).find('.review-date')[0]).text();
                             if(new Date(reviewDate) > new Date(lastestCrawlTimestamp)) {
                                 reviews.push({
