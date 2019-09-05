@@ -62,7 +62,7 @@ app.get('/crawl/movies', (req, res) => {
 app.get('/crawl/reviews', async (req, res) => {
     var currentPage = parseInt(req.query.page) ? parseInt(req.query.page) : 1;
 
-    var movies = await Movie.find({}).skip(50 * (currentPage - 1)).limit(50);
+    var movies = await Movie.find({}).skip(10 * (currentPage - 1)).limit(10);
     movies.forEach(movie => {
         crawler.crawlReviews(movie.imdb_id);
     })
