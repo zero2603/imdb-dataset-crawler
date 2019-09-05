@@ -60,24 +60,24 @@ app.get('/crawl/movies', (req, res) => {
 });
 
 app.get('/crawl/reviews', async (req, res) => {
-    // var currentPage = parseInt(req.query.page) ? parseInt(req.query.page) : 1;
+    var currentPage = parseInt(req.query.page) ? parseInt(req.query.page) : 1;
 
-    // var movies = await Movie.find({}).skip(50 * (currentPage - 1)).limit(50);
-    // movies.forEach(movie => {
-    //     crawler.crawlReviews(movie.imdb_id);
-    // })
-
-    var totalMovies = await Movie.count({});
-    var totalPages = Math.ceil(totalMovies / 50);
-
-    var pages = Array.from(Array(totalPages).keys());
-
-    pages.map(async page => {
-        var movies = await Movie.find({}).skip(50 * page).limit(50);
-        movies.forEach(async movie => {
-            await crawler.crawlReviews(movie.imdb_id);
-        })
+    var movies = await Movie.find({}).skip(50 * (currentPage - 1)).limit(50);
+    movies.forEach(movie => {
+        crawler.crawlReviews(movie.imdb_id);
     })
+
+    // var totalMovies = await Movie.count({});
+    // var totalPages = Math.ceil(totalMovies / 50);
+
+    // var pages = Array.from(Array(totalPages).keys());
+
+    // pages.map(async page => {
+    //     var movies = await Movie.find({}).skip(50 * page).limit(50);
+    //     movies.forEach(async movie => {
+    //         await crawler.crawlReviews(movie.imdb_id);
+    //     })
+    // })
 
     res.send({ok: 1});
 });
