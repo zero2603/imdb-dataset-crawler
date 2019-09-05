@@ -122,15 +122,15 @@ app.get('/log/activity', (req, res) => {
     });
 });
 
-cron.schedule('*/5 * * * *', () => {
-    fs.readFile("./activity", "utf8", function (err, data) {
-        if (err) throw err;
+// cron.schedule('*/5 * * * *', () => {
+//     fs.readFile("./activity", "utf8", function (err, data) {
+//         if (err) throw err;
 
-        data = JSON.parse(data);
+//         data = JSON.parse(data);
 
-        request(`https://nameless-beach-72924.herokuapp.com/crawl/reviews?page=${data.crawledPage + 1}`);
-    });
-});
+//         request(`https://nameless-beach-72924.herokuapp.com/crawl/reviews?page=${data.crawledPage + 1}`);
+//     });
+// });
 
 
 app.listen(process.env.PORT || 3000, () => console.log('App is running!'));

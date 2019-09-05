@@ -990,3 +990,568 @@
         nRemoved: 0,
         upserted: [] } },
   [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-05T23:23:52.511] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:23:53.822] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:23:54.142] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:23:54.342] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:23:54.350] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:23:54.350] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:23:54.350] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:23:55.124] [ERROR] error - ReferenceError: $ is not defined
+    at browser.visit.then (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:194:28)
+    at tryCatcher (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:699:18)
+    at Promise._fulfill (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:643:18)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/nodeback.js:42:21
+    at done (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:424:9)
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:111)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-09-05T23:23:55.124] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:23:55.529] [ERROR] error - ReferenceError: $ is not defined
+    at browser.visit.then (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:194:28)
+    at tryCatcher (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:699:18)
+    at Promise._fulfill (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:643:18)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/nodeback.js:42:21
+    at done (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:424:9)
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:111)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-09-05T23:25:55.733] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:25:56.100] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:25:56.542] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:25:58.398] [ERROR] error - ReferenceError: $ is not defined
+    at browser.visit.then (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:195:28)
+    at tryCatcher (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:699:18)
+    at Promise._fulfill (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:643:18)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/nodeback.js:42:21
+    at done (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:424:9)
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:111)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-09-05T23:25:58.399] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:25:58.399] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:25:58.399] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:25:58.807] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:25:58.808] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:25:58.808] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:39.616] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:40.372] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:41.556] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:41.956] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:41.956] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:41.956] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:41.956] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:41.976] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:42.000] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:28:42.003] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:29:20.582] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:29:20.616] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:29:21.002] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:29:21.417] [ERROR] error - ReferenceError: window is not defined
+    at browser.visit.then (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:194:9)
+    at tryCatcher (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:699:18)
+    at Promise._fulfill (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:643:18)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/nodeback.js:42:21
+    at done (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:424:9)
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:111)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-09-05T23:29:21.419] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:29:21.426] [ERROR] error - ReferenceError: window is not defined
+    at browser.visit.then (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:194:9)
+    at tryCatcher (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:517:31)
+    at Promise._settlePromise (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:574:18)
+    at Promise._settlePromise0 (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:619:10)
+    at Promise._settlePromises (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:699:18)
+    at Promise._fulfill (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/promise.js:643:18)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/bluebird/js/release/nodeback.js:42:21
+    at done (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:424:9)
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:111)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[2019-09-05T23:29:21.428] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:29:22.213] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:29:22.850] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
+[2019-09-05T23:29:23.351] [ERROR] error - { Error: Timeout: did not get to load all resources on this page
+    at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+  cause:
+   Error: Timeout: did not get to load all resources on this page
+       at Timeout.timeout (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/zombie/lib/eventloop.js:436:36)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10),
+  isOperational: true }
