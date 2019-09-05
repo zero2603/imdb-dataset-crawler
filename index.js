@@ -128,7 +128,7 @@ cron.schedule('*/5 * * * *', () => {
 
         data = JSON.parse(data);
 
-        request(`https://nameless-beach-72924.herokuapp.com/crawl/reviews?page=${data.crawledPage}`);
+        request(`https://nameless-beach-72924.herokuapp.com/crawl/reviews?page=${data.crawledPage + 1}`);
     });
 });
 
