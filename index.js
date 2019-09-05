@@ -4,6 +4,7 @@ var fs = require('fs');
 const bodyParser = require('body-parser');
 var cron = require('node-cron');
 const mongoose = require('mongoose');
+var request = require('request-promise');
 
 var Movie = require('./models/movie');
 var Review = require('./models/review');
@@ -30,15 +31,15 @@ app.get('/movies', async (req, res) => {
 
     var movies = await Movie.find({}).skip(50 * (currentPage - 1)).limit(50);
 
-    res.send({movies});
+    res.send({ movies });
 });
 
 app.get('/reviews', async (req, res) => {
     var currentPage = parseInt(req.query.page) ? parseInt(req.query.page) : 1;
     var movieId = req.query.id;
-    var reviews = await Review.count({movie_imdb_id: movieId});
+    var reviews = await Review.count({ movie_imdb_id: movieId });
 
-    res.send({reviews});
+    res.send({ reviews });
 });
 
 app.get('/crawl/movies', (req, res) => {
@@ -56,21 +57,20 @@ app.get('/crawl/movies', (req, res) => {
         crawler.crawlMovies(1, `2019-${month}-01`, `2019-${month}-31`);
     })
 
-    res.send({ok: 1})
+    res.send({ ok: 1 })
 });
 
 app.get('/crawl/reviews', async (req, res) => {
     var currentPage = parseInt(req.query.page) ? parseInt(req.query.page) : 1;
 
     fs.readFile('activity', 'utf8', (err, data) => {
-        if(err) res.send(err);
-    
+        if (err) res.send(err);
+
         data = JSON.parse(data);
-        if(data.crawledPage < currentPage) {
-            fs.writeFile('activity', JSON.stringify({crawledPage: currentPage}));
+        if (data.crawledPage < currentPage) {
+            fs.writeFileSync('activity', JSON.stringify({ crawledPage: currentPage }));
         }
-    })
-    fs.writeFile('activity', JSON.stringify({crawledPage: currentPage}))
+    });
 
     var movies = await Movie.find({}).skip(10 * (currentPage - 1)).limit(10);
     movies.forEach(movie => {
@@ -89,36 +89,46 @@ app.get('/crawl/reviews', async (req, res) => {
     //     })
     // })
 
-    res.send({ok: 1});
+    res.send({ ok: 1 });
 });
 
 app.get('/log/errors', (req, res) => {
-    fs.readFile("./error.log", "utf8", function(err, data){
-        if(err) throw err;
-    
+    fs.readFile("./error.log", "utf8", function (err, data) {
+        if (err) throw err;
+
         data = data.toString();
-    
-        res.send('<pre>'+data+'</pre>');
+
+        res.send('<pre>' + data + '</pre>');
     });
 });
 
 app.get('/log/info', (req, res) => {
-    fs.readFile("./info.log", "utf8", function(err, data){
-        if(err) throw err;
-    
+    fs.readFile("./info.log", "utf8", function (err, data) {
+        if (err) throw err;
+
         data = data.toString();
-    
-        res.send('<pre>'+data+'</pre>');
+
+        res.send('<pre>' + data + '</pre>');
     });
 });
 
 app.get('/log/activity', (req, res) => {
-    fs.readFile("./activity", "utf8", function(err, data){
-        if(err) throw err;
-    
+    fs.readFile("./activity", "utf8", function (err, data) {
+        if (err) throw err;
+
         data = data.toString();
-    
-        res.send('<pre>'+data+'</pre>');
+
+        res.send('<pre>' + data + '</pre>');
+    });
+});
+
+cron.schedule('* /5 * * * *', () => {
+    fs.readFile("./activity", "utf8", function (err, data) {
+        if (err) throw err;
+
+        data = JSON.parse(data);
+
+        request(`https://nameless-beach-72924.herokuapp.com/crawl/review?page=${data.crawledPage}`);
     });
 });
 
