@@ -1,0 +1,992 @@
+[2019-09-03T22:44:15.389] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 47,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-03T22:44:15.394] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 41,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-03T22:44:15.396] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 2,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-03T22:44:15.396] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 39,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-03T22:44:15.397] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 46,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-03T22:44:16.925] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 4,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-03T23:55:25.549] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:25.845] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:27.413] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:27.459] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:32.247] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:33.025] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:33.654] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:33.722] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:33.753] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:33.776] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:33.825] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:33.856] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.021] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.179] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.245] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.259] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.364] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.523] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.557] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.569] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.670] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.720] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.891] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.906] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.940] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.962] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:34.989] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.020] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.121] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.201] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.292] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.441] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.575] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.636] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.721] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.803] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.828] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:35.980] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:36.050] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:36.274] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:36.407] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:36.425] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:36.516] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:36.647] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:36.778] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:37.928] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:38.192] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:38.443] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:38.550] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-03T23:55:48.504] [ERROR] error - ReferenceError: needToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:138:25
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:04.223] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:06.355] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:06.453] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:06.521] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:06.574] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:06.819] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:06.850] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:07.247] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:07.448] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:07.508] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:07.618] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:07.655] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:07.670] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:07.823] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:07.840] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:07.939] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.068] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.143] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.155] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.264] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.292] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.503] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.503] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.534] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.621] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.658] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.722] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.723] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.775] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:08.913] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.124] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.253] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.368] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.369] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.426] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.495] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.628] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.698] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.787] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:09.807] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:10.028] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:10.815] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:12.609] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:12.760] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:12.999] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:13.176] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:13.177] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:14.852] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:18.939] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T00:00:19.360] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:170:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:20.744] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:23.122] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:24.257] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:25.210] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:25.325] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:27.191] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:27.436] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:27.437] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:27.980] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:28.448] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:28.451] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:28.605] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:28.711] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:28.759] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:28.882] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:28.885] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:29.469] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:29.575] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:29.774] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.138] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.141] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.309] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.343] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.479] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.533] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.699] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.794] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.843] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.886] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:30.975] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.149] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.196] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.260] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.289] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.310] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.405] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.481] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.571] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.571] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.645] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.688] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:31.744] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:32.964] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:33.081] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:33.196] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:33.571] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:33.572] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:33.903] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:34.315] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T08:51:36.090] [ERROR] error - ReferenceError: pageToCrawl is not defined
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/crawler/index.js:168:27
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-09-04T11:57:55.392] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 32,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-04T11:57:55.395] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 15,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-04T11:57:55.404] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 41,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-04T11:57:55.404] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 47,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-04T11:57:55.405] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 44,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
+[2019-09-04T11:57:55.405] [ERROR] error - { MongoError: write operation failed
+    at Function.create (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/error.js:43:12)
+    at toError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/utils.js:149:22)
+    at UnorderedBulkOperation.handleWriteError (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:1121:11)
+    at resultHandler (/Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb/lib/bulk/common.js:501:23)
+    at /Users/macbook/Documents/GitHub/imdb-dataset-crawler/node_modules/mongodb-core/lib/connection/pool.js:397:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+  name: 'BulkWriteError',
+  driver: true,
+  code: 11000,
+  writeErrors:
+   [ WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] },
+     WriteError { err: [Object] } ],
+  result:
+   BulkWriteResult {
+     result:
+      { ok: 1,
+        writeErrors: [Array],
+        writeConcernErrors: [],
+        insertedIds: [Array],
+        nInserted: 0,
+        nUpserted: 0,
+        nMatched: 0,
+        nModified: 0,
+        nRemoved: 0,
+        upserted: [] } },
+  [Symbol(mongoErrorContextSymbol)]: {} }
