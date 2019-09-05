@@ -122,7 +122,7 @@ app.get('/log/activity', (req, res) => {
     });
 });
 
-cron.schedule('* /5 * * * *', () => {
+cron.schedule('*/5 * * * *', () => {
     fs.readFile("./activity", "utf8", function (err, data) {
         if (err) throw err;
 
