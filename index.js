@@ -82,6 +82,15 @@ app.get('/crawl/reviews', async (req, res) => {
     res.send({ok: 1});
 });
 
+app.get('/log/errors', (req, res) => {
+    fs.readFile("./error.log", "utf8", function(err, data){
+        if(err) throw err;
+    
+        data = data.toString();
+    
+        res.send('<pre>'+data+'</pre>');
+    });
+})
 
 
 app.listen(process.env.PORT || 3000, () => console.log('App is running!'));
