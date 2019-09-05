@@ -168,11 +168,13 @@ exports.crawlReviews = async (movieId) => {
                 }, 3500 * pageToCrawl);
             }
 
-            return { status: 1 }
+            // return { status: 1 }
         }).catch(function (err) {
             errorLogger.error(err);
         })
     }).catch(function (err) {
         errorLogger.error(err);
-    })
+    });
+
+    ph.exit();
 }
