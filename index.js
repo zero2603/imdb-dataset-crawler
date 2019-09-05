@@ -63,7 +63,7 @@ app.get('/crawl/reviews', async (req, res) => {
     var currentPage = parseInt(req.query.page) ? parseInt(req.query.page) : 1;
 
     fs.readFile('activity', 'utf8', (err, data) => {
-        if(err) throw err;
+        if(err) res.send(err);
     
         data = JSON.parse(data);
         if(data.crawledPage < currentPage) {
