@@ -106,7 +106,7 @@ exports.crawlReviews = async (movieId) => {
     var ph = await phantom.create();
     var page = await ph.createPage();
 
-    await page.open(`https://www.imdb.com/title/${movieId}/reviews?sort=submissionDate&dir=desc&ratingFilter=0`).then(status => {
+    page.open(`https://www.imdb.com/title/${movieId}/reviews?sort=submissionDate&dir=desc&ratingFilter=0`).then(status => {
         page.evaluate(function (crawledPage) {
             var totalReviews = parseInt($(".lister .header span").first().text().split(" ")[0].replace('.', '').replace(',', ''));
             // var totalPages = Math.ceil(totalReviews / 25);
