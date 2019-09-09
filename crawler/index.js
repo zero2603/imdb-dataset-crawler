@@ -234,10 +234,10 @@ exports.crawlReviews = async (movieId) => {
             })
             
 
-            fs.writeFileSync(`./data/reviews/reviews_${movieId}.json`, JSON.stringify(userReviews), (err, res) => {
-                console.log(err);
-                console.log(res);
-            });
+            // fs.writeFileSync(`./data/reviews/reviews_${movieId}.json`, JSON.stringify(userReviews), (err, res) => {
+            //     console.log(err);
+            //     console.log(res);
+            // });
 
             await browser.close();
             console.log(`Crawl ${movieId} done!`);
