@@ -19,9 +19,8 @@
     "moment": "^2.24.0",
     "mongoose": "^5.6.11",
     "node-cron": "^2.0.3",
-    "phantom": "^6.3.0",
+    "puppeteer": "^1.19.0",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4",
-    "zombie": "^6.1.4"
+    "request-promise": "^4.2.4"
   }
 }

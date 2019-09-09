@@ -29,7 +29,7 @@ app.get('/', function (req, res) {
 app.get('/movies', async (req, res) => {
     var currentPage = parseInt(req.query.page) ? parseInt(req.query.page) : 1;
 
-    var movies = await Movie.find({}).skip(50 * (currentPage - 1)).limit(50);
+    var movies = await Movie.find({}).sort({releaseDate: 1}).skip(50 * (currentPage - 1)).limit(50);
 
     res.send({ movies });
 });
@@ -72,22 +72,12 @@ app.get('/crawl/reviews', async (req, res) => {
         }
     });
 
-    var movies = await Movie.find({}).skip(10 * (currentPage - 1)).limit(10);
-    movies.forEach(movie => {
-        crawler.crawlReviews(movie.imdb_id);
-    })
+    var movies = await Movie.find({}).sort({releaseDate: -1}).skip(10 * (currentPage - 1)).limit(10);
+    var processes = movies.map(movie => {
+        return crawler.crawlReviews(movie.imdb_id);
+    });
 
-    // var totalMovies = await Movie.count({});
-    // var totalPages = Math.ceil(totalMovies / 50);
-
-    // var pages = Array.from(Array(totalPages).keys());
-
-    // pages.map(async page => {
-    //     var movies = await Movie.find({}).skip(50 * page).limit(50);
-    //     movies.forEach(async movie => {
-    //         await crawler.crawlReviews(movie.imdb_id);
-    //     })
-    // })
+    Promise.all(processes);
 
     res.send({ ok: 1 });
 });
@@ -122,15 +112,15 @@ app.get('/log/activity', (req, res) => {
     });
 });
 
-// cron.schedule('*/5 * * * *', () => {
-//     fs.readFile("./activity", "utf8", function (err, data) {
-//         if (err) throw err;
+cron.schedule('*/10 * * * *', () => {
+    fs.readFile("./activity", "utf8", function (err, data) {
+        if (err) throw err;
 
-//         data = JSON.parse(data);
+        data = JSON.parse(data);
 
-//         request(`https://nameless-beach-72924.herokuapp.com/crawl/reviews?page=${data.crawledPage + 1}`);
-//     });
-// });
+        request(`https://nameless-beach-72924.herokuapp.com/crawl/reviews?page=${data.crawledPage + 1}`);
+    });
+});
 
 
 app.listen(process.env.PORT || 3000, () => console.log('App is running!'));
